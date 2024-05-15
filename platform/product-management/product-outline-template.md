@@ -5,25 +5,26 @@
 ---
 
 ## Overview
-*After you've explored the problem and through testing / hypothesis have identified the ideal solution, write up one sentence describing the solution you'll be creating.*
+*Streamlining the Veteran application routing experience by improving the How to Apply Wizard to be an authenticated tool accessible through the how to apply page and eligibility on Vet EDU homepage.*
 
 ## Problem Statement
-*In a couple of sentences, describe the Who, What, Why, and Where of the challenge / pain point you seek to address. [Here's a sample problem statement definition activity you can try on your team to help generate this](https://www.atlassian.com/team-playbook/plays/problem-framing)*
-
-*Follow your problem description up with a "How might we... _______" statement re-framing that challenge as an opportunity. Don't hint too much at what the solution might be, you should have enough of a focal point here to guide your ideas, but plenty of freedom to think laterally and innovatively as you experiment and prototype later.*
+*In a couple of sentences, describe the Who, What, Why, and Where of the challenge / pain point you seek to address.
+Who: Veterans and their family members
+What:  Looking for the correct education application forms to apply for from the Va.Gov Education section
+Why: The current wizard is long-documented as a pain point in the application experience; the design component is also deprecated in Va.Gov's design system.
+Where: Replacing the functionality of the how to apply wizard that appears on edu's how to apply section and eligibility
  
 ## Desired User Outcomes
 
-- *Why would a user want to use this?*
-- *With this problem solved, what should users be able to do/achieve that they couldn't before?*
+Overall faster, easier, and more accurate application routing experience for a Veteran or their family member coming to this site, looking to apply for benefits
 
 ## Undesired User Outcomes
 
+Further confusing prospective applicants or pushing them down the wrong path
 
 ## Desired Business Outcomes
 
-- *Why would your business want this to exist?*
-- *With this problem solved, what should your business be able to do/achieve that they couldn't before?*
+Increased access to education benefit opportunities; better overall Veteran education journey experience
 
 ## Undesired Business Outcomes
 
@@ -31,70 +32,32 @@
 ---
 ## Measuring Success
 
+Google analytics, My Education Benefits application #s over time; automation rates
 
 ### Key Performance Indicators (KPIs)
-* *What data (qual or quant) will you look at to understand if your initial set of functionality is meeting your desired user and business outcomes, and not bringing about the undesired outcomes?*
-* _What are the most important metrics that track with this product/initiative's success?_
-* _Include links to Domo or Google Analytics Dashboards/Reports_
-* _**Limit 5-6 KPIs per product**__
+* TBD
 
-| Category | Ease of use | Service completion | Trust/Satisfaction | Health |
-|----------|-------------|--------------------|--------------------|--------|
-| KPI      |             |                    |                    |        |
-| KPI      |             |                    |                    |        |
-
-#### Baseline KPI Values
-* _Baseline values for those most critical metrics. These may come from other systems other than VA.gov e.g. eBenefits._
-
-### Objectives and Key results (OKRs)
-_What are the measurable targets you're aiming for that delivers value for Veterans?_
-
-- Objective:
-  - Key result: 
-  - Key result: 
-
-
----
 
 ## Assumptions
-- *Include indication of which assumption you think is most risky. Your Solution Approach (next section) should describe how you'll validate that assumption w/your initial set of functionality*
+
+Our Education application recommender tool would be a near 1:1 replacement with the current wizard. We have assumptions about what the authenticated experience can pull re: information for the propsective applicant that accurately recommends the best app for them. This relies on (statistical) heuristics. 
 
 ## Solution Approach
 
-- *What are you going to build now, and why have you decided to start there?*
-- *Why this solution / approach over other solutions / approaches?*
-- *What have you explicitly decided to not include in this initial set of functionality, and why?*
-- *How will the solution / approach evolve after this initial build (knowing that this will likely change as you learn from users along the way)?*
-
-### Initiatives
-*Include initiatives (iterations, new features, etc.) to improve this product. See the [Initiative Brief Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/product/initiative-brief-template.md)*
-
-- Initiative | [Link to Initiative Brief](#)
-
---- 
+We'd like to present a series of "checks" (Alla turbotax) for the prospective applicant to view info we have on file and ultimately give them a primary and secondary recommendation for the best application suited for them to go forth in applying for.
 
 ## Launch Strategy
-- *How are Veterans and others using this product going to know it exists?*
-- *What marketing, outreach, or communications are necessary for this product to be successful?*
-- [Link to Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
+
+TBD but will include Organizational Change mgmt, training, and communications package
+
 
 ## Launch Dates
-- *Target Launch Date*
-  - tbd
-- *Actual Launch Date* 
-  - tbd
-- *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
-  - tbd
-
----
-
-## Solution Narrative
+- ideally around 12/24
 
 ### Current Status
 
-### Key Decisions
+High fidelity wireframes have been produced, business logic has been written as to how recommendations would accurately be presented, we've talked to the IA and Content teams about language framing around the tool.
 
----
    
 ## Screenshots
 
@@ -102,37 +65,16 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 ### After
 
----
+[https://share.goabstract.com/b42bd417-c1cf-48c1-84c3-0656c8918e46] 
 
 #### Communications
 
 <details>
 
-- Team Name: 
+- Team Name: My Education Benefits
 - GitHub Label: 
-- Slack channel: 
-- Product POCs:
-- Stakeholders: 
+- Slack channel: digital-gi-bill-study
+- Product POCs: Alexander Ferzola (Alexander.ferzola@afs.com)
+- Stakeholders: VA Education; Veterans and their family members
 
-</details>
-
-#### Team Members
-
-<details>
- 
- - DEPO Lead: 
- - PM: 
- - Engineering:
- - Research/Design: 
- 
-</details>
-
-
-#### Stakeholders
-
-<details>
- 
-_What offices/departments are critical to make this initiative successful?_
- 
-</details>
 
